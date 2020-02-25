@@ -12,7 +12,6 @@ if __name__ == "__main__":
 	# POSTを送るURLを定義
 	url = "http://localhost:5000/"
 	# POSTするJSONを定義
-	jsonData = json.dumps({"name": "Yoshioka",
-							"favorite": "fishing"})
+	jsonData = json.dumps({"name": "Yoshioka", "favorite": "fishing"})
 	# POSTリクエストを送る (headersはおまじない)
 	requests.post(url, jsonData, headers={"Content-Type": "application/json"})
