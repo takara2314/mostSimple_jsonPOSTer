@@ -1,8 +1,6 @@
 # 最もシンプルなJSONをPOSTするプログラム
 # PythonのHelloWorldを終わらして間もない人でも理解できるように、コメントは多めにしています。
 
-# flaskのFlaskとrequestをインポート
-from flask import Flask, request
 # JSONを扱うために、jsonをインポート
 import json
 # POSTするプログラムを書けるようにするために、requestsをインポートする
